@@ -8,7 +8,8 @@ function k
   output Real result;
 algorithm
 //result := 0.73;
-  result := 0.000013;
+//result := 0.000013;
+  result := 0.55*sin(t);
 end k;
 
 function p
@@ -16,7 +17,8 @@ function p
   output Real result;
 algorithm
 //result := 0.000013;
-  result := 0.73;
+//result := 0.73;
+  result := 0.33*sin(5*t);
 end p;
 
 equation
